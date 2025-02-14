@@ -47,9 +47,14 @@ button {
 @media (max-width: 600px) {
     #container {
         height: auto;
-        padding: 20px;
+        padding: auto;
+        justify-content: center;
+        height: 100vh;
     }
-    
+    #image-container img {
+        max-width: 50%;
+        
+    }
     #question {
         font-size: 32px;
     }
